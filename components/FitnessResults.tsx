@@ -102,7 +102,7 @@ export function FitnessResults({
   return (
     <div className="space-y-6">
       {/* Summary Cards */}
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-4">
         <Card className="border-t-indigo-600 bg-white p-6 shadow-sm">
           <div className="text-center">
             <p className="text-xs font-semibold uppercase tracking-wide text-indigo-600">Basal Metabolic Rate (BMR)</p>
